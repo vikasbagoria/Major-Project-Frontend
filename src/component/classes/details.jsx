@@ -1,0 +1,60 @@
+const details = [
+    {
+        id:1,
+        image:"images/abs.jpg",
+        title: "Abs roll-out",
+        name: "Robert",
+        time: "Mon Wed Fri   🕑 05:30pm-07:45pm",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, deleniti!",
+    },
+    {
+        id:2,
+        image:"images/dance.jpg",
+        title: "Dance Classes",
+        name: "John",
+        time: " Sun 🕑 05:30pm-07:45pm",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, deleniti!",
+    },
+    {
+        id:3,
+        image:"images/hatha.jpg",
+        title: "Hatha Yoga",
+        name: "Henry",
+        time: "Mon Wed Fri 🕑 05:30pm-07:45pm",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, deleniti!",
+    },
+    {
+        id:4,
+        image:"images/curl.jpg",
+        title: "Curls N’ Crunches",
+        name: "David",
+        time: "Tue Thu sat 🕑 05:30pm-07:45pm",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, deleniti!",
+    },
+    {
+        id:5,
+        image:"images/russian-twist.jpg",
+        title: "Russian twist",
+        name: "Angela",
+        time: "Mon Wed Fri 🕑 05:30pm-07:45pm",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, deleniti!",
+    },
+    {
+        id:6,
+        image:"images/curl.jpg",
+        title: "Curls N’ Crunches",
+        name: "David",
+        time: "Tue Thu Sat 🕑 05:30pm-07:45pm",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, deleniti!",
+    },
+    {
+        id:7,
+        image:"images/russian-twist.jpg",
+        title: "Russian twist",
+        name: "Angela",
+        time: "Mon Wed Fri 🕑 05:30pm-07:45pm",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, deleniti!",
+    },
+]
+
+export default details;

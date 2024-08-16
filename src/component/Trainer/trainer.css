@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=PT+Sans+Caption&display=swap');
+.outer{
+    overflow: auto;
+    overflow-y:hidden;
+    overflow-x: scroll;
+    justify-content: space-between;
+
+}
+.outer::-webkit-scrollbar{
+    overflow:hidden !important; 
+}
+.trainer_card_info{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    align-items: center;
+}
+.icon_trainer{
+    
+    align-items: flex-end;
+    display: flex;
+    margin-left:1rem ;
+   margin-right: 1rem;
+    justify-content: space-between;    
+}
+.icon_trainer:hover{
+    cursor: pointer;
+}
+.tr_nm{
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Lobster Two', cursive;
+    letter-spacing: 2px;
+}
+.tr_cat{
+    font-weight:"700";
+    color:"#666666";
+    font-family: 'Comfortaa', cursive;
+font-family: 'PT Sans Caption', sans-serif;
+}
+.trres{
+    margin-left: 42px;
+    margin-right: 42px;
+}
+
+@media (max-width:770px){
+    .imgres{
+        width:150px;
+        margin-left:-25px
+    }
+    .outer{
+        margin-left:25px;
+        margin-right: 15px;
+    }
+    .trainer_card_info{
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+    .outer{
+        margin-left: -1px;
+        margin-right: -20px;
+    }
+    .trres{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+@media (max-width:380px){
+    .imgres{
+        width:120px;
+        margin-left:-25px
+    }
+    .card{
+        margin-left:-20px ;
+        margin-right:-20px ;
+    }
+    .trres{
+            margin-left: 20px;
+            margin-right: 10px;
+    }
+}

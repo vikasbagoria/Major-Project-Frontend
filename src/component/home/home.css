@@ -1,0 +1,61 @@
+.mainBox{
+    /* border:2px solid red; */
+    background-color: #f8f4f2;
+    padding:20px 20px;
+}
+.profilefont{
+    font-size: 2.3rem;
+}
+.profileItems{
+    font-size: 1.7rem;
+    color: rgb(44, 136, 139);
+}
+.profileMenu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.3rem;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+.profileMenu span,.profileMenu i{
+    text-decoration: none;
+    color:black;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.validres{
+    display: flex;
+}
+.validuser{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media(max-width:380px){
+    .validres{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+}

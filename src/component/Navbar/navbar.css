@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+#nav{
+    font-size:20px;
+    padding-top:15px;
+}
+.brnd_nm{
+    font-family: 'Pacifico', cursive;
+    text-transform: uppercase;
+}
+.form-control{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+}
+
+@media (max-width:770px){
+    .navbarotr{
+            width:100%;
+    }
+    .brnd_nm{
+        font-size: 2rem;
+    }
+    html{
+        font-size: 12px;
+    }
+    .btn_res{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:380px){
+    .navbarotr{
+            width:100%;
+    }
+    .brnd_nm{
+        font-size: 1.5rem;
+    }
+    html{
+        font-size: 10px;
+    }
+}
+    

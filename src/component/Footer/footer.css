@@ -1,0 +1,18 @@
+/* .body{
+display: flex;
+flex-direction: column;
+height: 100vh;
+} */
+.footer{
+    height: 2.5rem;
+    margin-top: auto;
+}
+.footer p{
+    font-size: 1.1rem;
+    text-align: center;
+    color:#666666;
+    line-height: 2.5rem;
+}
+.footer p span{
+    font-weight: 500;
+}
